@@ -1,58 +1,56 @@
-*{
+* {
   width: 1300px;
-  font-family: 'Shippori Mincho B1', serif;
+  font-family: "Shippori Mincho B1", serif;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
 }
-body{
+body {
   width: 1000px;
   margin-top: 60px;
 }
-header{
+header {
   width: 100%;
   height: 70px;
-  margin-top: 60px;
+  margin-top: 0px;
 }
-.header_logo{
-font-family: 'Amatic SC',serif;
-font-size: 40px;
-font-weight: bold;
-display: block;
-text-align: right;
-color: #55bbbb;
+.header_logo {
+  font-family: "Amatic SC", serif;
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+  text-align: right;
+  color: #55bbbb;
 }
-.product_content2{
+.product_content2 {
   position: relative;
+  position: absolute;
+  top: 150px;
   z-index: 10;
-
 }
-.top_img{
-
+.top_img {
   width: 100%;
   height: 500px;
-
 }
-.promotion{
+.promotion {
   text-align: left;
 }
-.content{
+.content {
   font-size: 40px;
   margin-bottom: 40px;
-
 }
 span {
   color: #55bbbb;
   font-size: 64px;
 }
-.content1{
+.content1 {
   color: black;
 }
-.content2{
+.content2 {
   display: flex;
 }
-.circle{
+.circle {
   border-radius: 50%;
-  background-color: #FF4384;
+  background-color: #ff4384;
   width: 100px;
   height: 100px;
   display: flex;
@@ -60,97 +58,100 @@ span {
   align-items: center;
   text-align: center;
   margin: 10px;
-
 }
-.promotion_1{
+.promotion_1 {
   color: white;
   font-size: 20px;
   margin: 60px;
-
 }
-.price{
+.price {
   display: flex;
   color: #55bbbb;
 }
-.promotion_img{
+.promotion_img {
   width: 100%;
   height: 100%;
 }
-.promotion_img_1{
-  width: 100%;
-  height: 100%;
+.promotion_img_1 {
   text-align: right;
-  position: absolute;
+  /*position: absolute;
   top: 10px;
-  right: 50px;
+  right: 50px;*/
   font-size: 50px;
   z-index: 5;
-  
 }
-.promotion_text1{
+.promotion_text1 {
   background-color: #55bbbb;
   color: white;
   height: 80px;
   text-align: center;
   padding-top: 40px;
-
 }
-.price_1{
-  color: #FF4384;
+.price_1 {
+  color: #ff4384;
 }
-.price_3{
-  color: #FF4384;
+.price_3 {
+  color: #ff4384;
 }
-.price_2{
+.price_2 {
   padding-top: 15px;
 }
-.promotion_2{
-  background-color: #FF4384;
+.promotion_2 {
+  background-color: #ff4384;
   border-radius: 30px;
   padding: 15px;
   color: white;
   width: 250px;
   margin: 30px;
 }
-.text2{
+.text2 {
   font-size: 40px;
   color: white;
   height: 100px;
+}
+.second_img {
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
 
 }
-.second_img{
-  width: 100%;
-display: flex;
-margin: 0 auto;
-}
-.trouble_img{
+.trouble_img {
   width: 200px;
   height: 300px;
 }
-.check{
+.check {
   display: inline-block;
   width: 20px;
   text-align: left;
   padding: 0 0;
   margin: 0 10px;
 }
-table{
+table {
   width: 300px;
-  height: 200px;
+  height: 150px;
   border: 1px solid #55bbbb;
   border-radius: 30px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  text-align: left;
+  margin-top: 50px;
 }
-tr{
+tr {
   border-bottom: 1px solid #55bbbb;
+  margin-left: 10px;
+  width: 260px;
+  margin-bottom: 20px;
+  display: inline-block;
 }
-td{
+th{
+  width: 100px;
+}
+td {
   color: #55bbbb;
   text-align: left;
 }
-.block{
+.block {
   width: 100%;
   height: 160px;
   background-color: #55bbbb;
@@ -158,16 +159,103 @@ td{
   text-align: center;
   padding-top: 40px;
 }
-.bland1{
+.bland1 {
   font-size: 15px;
   color: white;
-
 }
-.bland{
-  font-family: 'Amatic SC',serif;
+.bland {
+  font-family: "Amatic SC", serif;
   color: white;
 }
-.bland_text2{
-  color: #FF4384
-  ;
+.bland_text2 {
+  color: #ff4384;
+}
+.card{
+  width: 100%;
+  display: flex;
+  margin: 40px;
+  justify-content: center;
+
+}
+.card1{
+  width: 300px;
+  height: 300px;
+}
+.point_frame1{
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #55bbbb;
+  width: 300px;
+  height: 200px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.point_frame2{
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #55bbbb;
+  width: 300px;
+  height: 200px;
+}
+.point_frame3{
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #55bbbb;
+  width: 300px;
+  height: 200px;
+}
+
+.point_1{
+  color: #55bbbb;
+  position: absolute;
+  left: 20px;
+  top: -40px;
+  display: block;
+  font-size: 20px;
+
+}
+.point_2{
+  color: #55bbbb;
+  position: absolute;
+  left: 20px;
+  top: -40px;
+  display: block;
+  font-size: 20px;
+}
+.point_3{
+  left: 20px;
+  top: -40px;
+  display: block;
+  font-size: 20px;
+  color: #55bbbb;
+  position: absolute;
+}
+.point1{
+  color:#ff4384;
+  margin:10px;
+  
+}
+.point3{
+  font-size: 10px;
+}
+.card2{
+  width: 300px;
+  height: 300px;
+}
+.card3{
+  width: 300px;
+  height: 300px;
+
+
+}
+footer{
+  width: 100%;
+  height: 30px;
+  text-align: center;
+
+}
+.footer_text{
+  width: 100px;
+  font-size: 10px;
+  margin: 0 auto;
 }
